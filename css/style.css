@@ -1,0 +1,41 @@
+    * {
+    box-sizing: border-box;
+}
+
+/*.container {
+    width: 400px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+select {
+    height: 33px;
+    float: left;
+}
+
+input {
+    width: 200px;
+    float: left;
+    display: block;
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fff;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 33px;
+    font-size: 14px;
+    padding: 0 8px;
+    margin-left: 5px;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    background-color: #999999;
+}
